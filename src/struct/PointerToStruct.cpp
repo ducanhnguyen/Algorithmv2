@@ -19,29 +19,29 @@ struct movies_t {
   int year;
 };
 
-int main ()
-{
-  string mystr;
-
-  movies_t amovie;
-  movies_t * pmovie;
-  pmovie = &amovie;
-
-  cout << "Enter title: ";
-  getline (cin, pmovie->title);
-  cout << "Enter year: ";
-  getline (cin, mystr);
-  (stringstream) mystr >> pmovie->year;
-
-  cout << "\nYou have entered:\n";
-  cout << pmovie->title;
-  cout << " (" << pmovie->year << ")\n";
-//  Output:
-//  Enter title: Invasion of the body snatchers
-//  Enter year: 1978
+//int main ()
+//{
+//  string mystr;
 //
-//  You have entered:
-//  Invasion of the body snatchers (1978)
-
-  return 0;
-}
+//  movies_t amovie;
+//  movies_t * pmovie;
+//  pmovie = &amovie;
+//
+//  cout << "Enter title: ";
+//  getline (cin, pmovie->title);
+//  cout << "Enter year: ";
+//  getline (cin, mystr);
+//  (stringstream) mystr >> pmovie->year;
+//
+//  cout << "\nYou have entered:\n";
+//  cout << pmovie->title;
+//  cout << " (" << pmovie->year << ")\n";
+////  Output:
+////  Enter title: Invasion of the body snatchers
+////  Enter year: 1978
+////
+////  You have entered:
+////  Invasion of the body snatchers (1978)
+//
+//  return 0;
+//}

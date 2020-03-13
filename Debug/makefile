@@ -8,8 +8,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include src/trycatch/subdir.mk
 -include src/struct/subdir.mk
 -include src/pointer/subdir.mk
+-include src/conditional_inclusion/subdir.mk
 -include src/class/subdir.mk
 -include src/subdir.mk
 -include subdir.mk

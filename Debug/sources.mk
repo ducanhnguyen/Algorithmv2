@@ -25,6 +25,8 @@ C_DEPS :=
 SUBDIRS := \
 src \
 src/class \
+src/conditional_inclusion \
 src/pointer \
 src/struct \
+src/trycatch \
 
